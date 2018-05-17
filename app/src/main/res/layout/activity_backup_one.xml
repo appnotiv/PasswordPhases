@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backup_one_back"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/icon_back_white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Personal Wallet"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17sdp"/>
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/icon_add_white"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Please carefully write down this phrase.\nOr take a screenshoot for future for setup backup account and recover account"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/screen_dotted_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.nex3z.flowlayout.FlowLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        app:childSpacing="auto"
+                        app:childSpacingForLastRow="align"
+                        app:rowSpacing="8dp">
+
+                        <TextView
+                            android:id="@+id/backup_one_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_two_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_three_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_four_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_five_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_six_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_seven_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_eight_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+
+                        <TextView
+                            android:id="@+id/backup_nine_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_ten_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_elevan_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/backup_twelve_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/_5sdp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="normal"/>
+
+
+                    </com.nex3z.flowlayout.FlowLayout>
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="We'll confirm on the next screen."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp"/>
+
+                <TextView
+                    android:id="@+id/txt_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_20sdp"
+                    android:background="@drawable/aat_btn_txt_color_bg"
+                    android:gravity="center"
+                    android:padding="@dimen/_13sdp"
+                    android:text="I've written it down"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
