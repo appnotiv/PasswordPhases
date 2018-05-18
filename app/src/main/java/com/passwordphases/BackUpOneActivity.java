@@ -101,7 +101,6 @@ public class BackUpOneActivity extends AppCompatActivity {
                     intent.putExtra("walletId", walletId);
                     startActivity(intent);
                 }
-
             }
         });
     }
